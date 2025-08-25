@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>CRAS Jardim Munhoz - Oficinas e Eventos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #2e7d32;
+      color: white;
+      padding: 30px 0;
+      text-align: center;
+    }
+    nav {
+      background: #1b5e20;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .card {
+      background: white;
+      margin: 15px 0;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #2e7d32;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #2e7d32;
+      color: white;
+      margin-top: 20px;
+    }
+    /* Galeria */
+    .galeria {
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .galeria img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+      transition: transform 0.3s;
+    }
+    .galeria img:hover {
+      transform: scale(1.05);
+    }
+    /* Notícias */
+    .noticia {
+      border-left: 5px solid #2e7d32;
+      padding-left: 15px;
+      margin-bottom: 15px;
+    }
+    /* Botão interativo */
+    .btn {
+      display: inline-block;
+      padding: 10px 15px;
+      background: #2e7d32;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #1b5e20;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CRAS Jardim Munhoz</h1>
+    <p>Centro de Referência de Assistência Social</p>
+  </header>
+
+  <nav>
+    <a href="#instituicao">A Instituição</a>
+    <a href="#atividades">Atividades</a>
+    <a href="#eventos">Próximos Eventos</a>
+    <a href="#galeria">Galeria</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="instituicao">
+    <h2>Sobre o CRAS Jardim Munhoz</h2>
+    <div class="card">
+      <p>
+        O CRAS Jardim Munhoz é uma unidade pública da assistência social em Osasco - SP.  
+        Atua como porta de entrada para os serviços do Sistema Único de Assistência Social (SUAS), 
+        oferecendo apoio, oficinas culturais, atividades socioeducativas e serviços voltados ao fortalecimento de vínculos familiares e comunitários.
+      </p>
+      <p>
+        Entre suas principais funções estão: prevenir situações de risco social, oferecer atendimento às famílias em situação de vulnerabilidade, 
+        realizar encaminhamentos para programas sociais, além de promover inclusão cultural e digital por meio de oficinas.
+      </p>
+    </div>
+  </section>
+
+  <section id="atividades">
+    <h2>Atividades Realizadas</h2>
+    <div class="card">
+      <h3>Oficina de Artesanato</h3>
+      <p>Ensino de técnicas manuais, valorização cultural e geração de renda para famílias.</p>
+    </div>
+    <div class="card">
+      <h3>Oficina de Música</h3>
+      <p>Introdução a instrumentos musicais, canto e prática em grupo, estimulando expressão artística.</p>
+    </div>
+    <div class="card">
+      <h3>Oficina de Informática Básica</h3>
+      <p>Inclusão digital com noções de internet, ferramentas online e criação de currículos.</p>
+    </div>
+  </section>
+
+  <section id="eventos">
+    <h2>Próximos Eventos</h2>
+    <div class="card noticia">
+      <h3>📅 Setembro 2025 - Feira Cultural do CRAS</h3>
+      <p>Apresentação de trabalhos das oficinas de artesanato, dança e música. Aberto a toda comunidade.</p>
+    </div>
+    <div class="card noticia">
+      <h3>📅 Outubro 2025 - Semana da Inclusão Digital</h3>
+      <p>Oficinas de informática para jovens e idosos, com emissão de certificado de participação.</p>
+    </div>
+    <div class="card noticia">
+      <h3>📅 Novembro 2025 - Festival de Talentos</h3>
+      <p>Evento com apresentações artísticas de crianças, jovens e adultos do bairro.</p>
+    </div>
+  </section>
+
+  <section id="galeria">
+    <h2>Galeria de Fotos</h2>
+    <div class="card galeria">
+      <img src="https://via.placeholder.com/300x200.png?text=Oficina+de+Artesanato" alt="Oficina de Artesanato">
+      <img src="https://via.placeholder.com/300x200.png?text=Oficina+de+Música" alt="Oficina de Música">
+      <img src="https://via.placeholder.com/300x200.png?text=Oficina+de+Informática" alt="Oficina de Informática">
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <div class="card">
+      <p><strong>Endereço:</strong> Rua Exemplo, 123 - Jardim Munhoz, Osasco - SP</p>
+      <p><strong>Telefone:</strong> (11) 4002-8922</p>
+      <p><strong>Email:</strong> cras.jardimmunhoz@osasco.sp.gov.br</p>
+      <a class="btn" href="mailto:cras.jardimmunhoz@osasco.sp.gov.br">📩 Enviar E-mail</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 CRAS Jardim Munhoz - Todos os direitos reservados</p>
+  </footer>
+
+  <script>
+    // Alerta interativo para próximos eventos
+    document.addEventListener("DOMContentLoaded", () => {
+      setTimeout(() => {
+        alert("📢 Não perca: Feira Cultural do CRAS em Setembro!");
+      }, 2000);
+    });
+  </script>
+</body>
+</html>
